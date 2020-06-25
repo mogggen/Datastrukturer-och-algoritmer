@@ -6,6 +6,7 @@
 Θ(Theta notation) = average case
 O(big-O notation) = worst case
 
+------------------------------------------------------------------------------------------------------------------------
 
 BubbleSort
 
@@ -25,6 +26,15 @@ https://www.youtube.com/watch?v=VuXbEb5ywrU
 Ω(n)
 Θ(n)
 O(n)
+
+Description: BucketSort starts by creating the same number of buckets as there are elements in the
+array we want sorted. The algorithm checks the value of the  first decimal smaller than zero, and
+places it in the corresponding bucket. If a bucket already has a value a linked list will form from
+that bucket. When all the values from the array is put into each bucket, the buckets are sorted, and
+then emptied back into the array from first bucket to last. BucketSort is used (primarly) to sort
+floating-point numbers.
+
+------------------------------------------------------------------------------------------------------------------------
 
 countingSort
 https://www.youtube.com/watch?v=7zuGmKfUt7s
