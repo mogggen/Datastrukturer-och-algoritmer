@@ -1,0 +1,109 @@
+----------------------------------------
+---------- Sorting algoritm ------------
+----------------------------------------
+
+Ω(Omega notation) = best case
+Θ(Theta notation) = average case
+O(big-O notation) = worst case
+
+
+BubbleSort
+
+Description: The sorting-algortihm start at the beginning traversing the list swapping adjacent elements of the
+list that is in incorrect order, it traverses the list until the algortims has made an entire traversal without
+finding any out of order pairs.
+
+https://www.youtube.com/watch?v=nmhjrI-aW5o
+Ω(n)
+Θ(n^2)
+O(n^2)
+
+----------------------------------------
+
+bucketSort
+https://www.youtube.com/watch?v=VuXbEb5ywrU
+Ω(n)
+Θ(n)
+O(n)
+
+countingSort
+https://www.youtube.com/watch?v=7zuGmKfUt7s
+
+
+O(n+k) k = range of input.
+
+
+Insertion Sort
+https://www.youtube.com/watch?v=OGzPmgsI-pQ
+Ω(n)
+Θ(?)
+O(n^2)
+
+Selection Sort
+https://www.youtube.com/watch?v=xWBP4lzkoyM
+Ω(n)
+Θ(?)
+O(n^2)
+
+Radix Sort
+https://www.youtube.com/watch?v=nu4gDuFabIM
+Ω(n)
+Θ(?)
+O(n) (also number-of-digits dependant)
+
+heapSort
+https://www.youtube.com/watch?v=MtQL_ll5KhQ
+data structure: transform and conquer
+Θ(theta): 
+
+merge Sort
+data structure: divide and concuquer
+Θ(theta): 
+
+----------------------------------------
+--------------- Searches ---------------
+----------------------------------------
+
+binary search
+
+linear search
+
+
+----------------------------------------
+------------ Data structures -----------
+----------------------------------------
+bineary search tree
+Lists (array[], vector<>)
+Stacks (List, linked)
+Queues (List, linked)
+Linked Lists (singly, doubly)
+Trees (2-3, balanced(Red-black, 2-3), binary)
+Graph (adjacency list, adjacency matrix) https://www.youtube.com/watch?v=DBRW8nwZV-g
+Heap (min/max)
+Hash map/tables
+
+----------------------------------------
+--------------- Graphs -----------------
+----------------------------------------
+pre-order, in order, post order.
+Dijkstra's algorithm
+
+adjacency matrix:
+translation - The edges will go from the vertically listed nodes, on the left, to the horizontally listed, at the top.
+
+BFS & DFS https://www.youtube.com/watch?v=pcKY4hjDrxk
+
+DFS: When a neighbouring node is visited it is added to the top of a stack to remember the order that the search
+traversed. When the newest addition the the stack has no unvisited neighbouring nodes it is poped from the stack
+and this is repeated until the stack is empty or a previous node with unvisted neighbours is found.
+
+BFS:
+
+discovery time - the first time the node is visited.
+finishing time - the last time the node is visited.
+every node will be visited exactly 2 times during a search.
+
+----------------------------------------
+--------------- Trees ------------------
+----------------------------------------
+binary search tree - a technique that splits the array into smaller halves of itself to find the a certain element
