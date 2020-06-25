@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=nmhjrI-aW5o
 Θ(n^2)
 O(n^2)
 
-----------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 bucketSort
 https://www.youtube.com/watch?v=VuXbEb5ywrU
@@ -88,19 +88,27 @@ Hash map/tables
 pre-order, in order, post order.
 Dijkstra's algorithm
 
-adjacency matrix:
-translation - The edges will go from the vertically listed nodes, on the left, to the horizontally listed, at the top.
+adjacency matrix - The edges will go from the vertically listed nodes, on the left, to the horizontally listed, at the top.
+adjacency list - an array with all the nodes of the graph, were every element has in the list has a linked list with it's neighbours.
+neighbour - a Node that can be directly visted from currently visited node via an edge.
 
 BFS & DFS https://www.youtube.com/watch?v=pcKY4hjDrxk
+
+------------------------------------------------------------------------------------------------------------------------
 
 DFS: When a neighbouring node is visited it is added to the top of a stack to remember the order that the search
 traversed. When the newest addition the the stack has no unvisited neighbouring nodes it is poped from the stack
 and this is repeated until the stack is empty or a previous node with unvisted neighbours is found.
 
+Discovery time = stack.push(Node*)
+Finishing time = stack.pop()
+
+------------------------------------------------------------------------------------------------------------------------
+
 BFS:
 
-discovery time - the first time the node is visited.
-finishing time - the last time the node is visited.
+discovery time - the first time the node is visited. queue.EnQueue(node*)
+finishing time - the last time the node is visited. queue.DeQueue()
 every node will be visited exactly 2 times during a search.
 
 ----------------------------------------
