@@ -110,6 +110,8 @@ DFS: When a neighbouring node is visited it is added to the top of a stack to re
 traversed. When the newest addition the the stack has no unvisited neighbouring nodes it is poped from the stack
 and this is repeated until the stack is empty or a previous node with unvisted neighbours is found.
 
+trick: walking the left-most path, counting leafs double, and back will give the correct discovery and finishing time, for DFS
+
 Discovery time = stack.push(Node*)
 Finishing time = stack.pop()
 
