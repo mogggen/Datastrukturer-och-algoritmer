@@ -97,7 +97,7 @@ Hash map/tables
 ----------------------------------------
 --------------- Graphs -----------------
 ----------------------------------------
-
+Directed Acyclic Graphs (DAG) - a graph with one-way-edges and no cycles. Meaning you could end up at a previous node in a given number of traversal, bigger than zero.
 Dijkstra's algorithm - https://www.youtube.com/watch?v=pVfj6mxhdMw
 
 Description: Firstly, start with all the length from start to finish at infinite length. Move to neigbouring nodes and compute the
@@ -113,7 +113,25 @@ adjacency list - an array with all the nodes of the graph, were every element ha
 neighbour - a Node that can be directly visted from currently visited node via an edge.
 
 ------------------------------------------------------------------------------------------------------------------------
-pre-order, in order, post order.
+
+
+discovery time - the first time the node is visited.
+finishing time - the last time the node is visited.
+every node will be visited exactly 2 times during a search.
+
+topilogical sorting - A topilogical order/sorting can't contain cycles, so it has to be directed. https://en.wikipedia.org/wiki/Topological_sorting
+
+----------------------------------------
+--------------- Trees ------------------
+----------------------------------------
+tree traversals (inorder, pre-order, post-order) - https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+inorder - left, root, right
+pre-order - root left right
+post-order - left, right, root
+
+
+binary search tree - a technique that splits the array into smaller halves of itself to find the a certain element
+
 BFS & DFS https://www.youtube.com/watch?v=pcKY4hjDrxk
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -122,7 +140,7 @@ DFS: When a neighbouring node is visited it is added to the top of a stack to re
 traversed. When the newest addition the the stack has no unvisited neighbouring nodes it is poped from the stack
 and this is repeated until the stack is empty or a previous node with unvisted neighbours is found.
 
-trick: walking the left-most branch, counting leafs double, and back will give the correct discovery and finishing time, for DFS
+trick: walking the left-most branch, counting leafs double, and backtracking will give the correct discovery and finishing time, for DFS
 
 Discovery time = stack.push(Node*)
 Finishing time = stack.pop()
@@ -133,14 +151,5 @@ BFS:
 
 discovery time - the first time the node is visited. queue.EnQueue(node*)
 finishing time - the last time the node is visited. queue.DeQueue()
-every node will be visited exactly 2 times during a search.
 
-topilogical sorting - A topilogical order/sorting can't contain cycles, so it has to be directed. https://en.wikipedia.org/wiki/Topological_sorting
-
-----------------------------------------
---------------- Trees ------------------
-----------------------------------------
-tree traversals (inorder, pre-order, post-order) - https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
-
-
-binary search tree - a technique that splits the array into smaller halves of itself to find the a certain element
+------------------------------------------------------------------------------------------------------------------------
