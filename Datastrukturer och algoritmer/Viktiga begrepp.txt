@@ -83,9 +83,9 @@ data structure: divide and concuquer
 --------------- Searches ---------------
 ----------------------------------------
 
-binary search
+binary search - O(log n)
 
-linear search
+linear search - O(n)
 
 
 ----------------------------------------
@@ -135,11 +135,15 @@ topilogical sorting - A topilogical order/sorting can't contain cycles, so it ha
 --------------- Trees ------------------
 ----------------------------------------
 tree traversals (inorder, pre-order, post-order) - https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+
 inorder - left, root, right
 pre-order - root left right
 post-order - left, right, root
 as a recursive function-call:
 order(Node* first, Node* second, Node* third)
+if(first->getFirst())
+else if(second->getSecond())
+else if(third->getThird())
 
 binary search tree - a technique that splits the array into smaller halves of itself to find the a certain element
 
