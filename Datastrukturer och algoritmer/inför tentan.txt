@@ -40,6 +40,9 @@ floating-point numbers.
 
 countingSort
 https://www.youtube.com/watch?v=7zuGmKfUt7s
+https://www.youtube.com/watch?v=1mh2vilbZMg
+
+
 
 
 O(n+k) k = range of input.
@@ -100,9 +103,11 @@ Hash map/tables
 Directed Acyclic Graphs (DAG) - a graph with one-way-edges and no cycles. Meaning you could end up at a previous node in a given number of traversal, bigger than zero.
 Dijkstra's algorithm - https://www.youtube.com/watch?v=pVfj6mxhdMw
 
-Description: Firstly, start with all the length from start to finish at infinite length. Move to neigbouring nodes and compute the
-new distances and sort shortest through longest. Continue until the end vertices is reached. storing the vertices that the algrithm
-arrived from. In doing so gives the entire path (see video).
+Description: Start with all the lengths, from start to finish, at infinite length.
+Move to neigbouring nodes, with shortest known distance, and compute the new distances and sort shortest through longest.
+Continue until with the node that has the shortest distance the end vertices is reached.
+storing the vertices that the algrithm arrived from. In doing so gives the entire path.
+(see video)
 
 Calulating the shortest path to the end node, also gives the shortest path to all the nodes contained in the graph.
 
@@ -128,7 +133,8 @@ tree traversals (inorder, pre-order, post-order) - https://www.geeksforgeeks.org
 inorder - left, root, right
 pre-order - root left right
 post-order - left, right, root
-
+as a recursive function-call:
+order(Node* first, Node* second, Node* third)
 
 binary search tree - a technique that splits the array into smaller halves of itself to find the a certain element
 
