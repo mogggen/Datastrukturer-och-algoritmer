@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-07-01T14:33:59.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="HSSZbamq_nMsrdgzuW9g" version="13.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-01T15:03:40.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="mECQ-IiKSV6boJ0ADoAF" version="13.3.5" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="767" dy="1580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#000000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1749" value="Trees" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#2F5B7C;fontFamily=Helvetica;fontSize=23;fontColor=#FFFFFF;align=center;fontStyle=0;spacing=5;arcSize=7;perimeterSpacing=2;glass=0;" parent="1" vertex="1">
+        <mxCell id="1749" value="Binary Trees" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#2F5B7C;fontFamily=Helvetica;fontSize=23;fontColor=#FFFFFF;align=center;fontStyle=0;spacing=5;arcSize=7;perimeterSpacing=2;glass=0;" parent="1" vertex="1">
           <mxGeometry x="777" y="-366.5" width="98" height="54" as="geometry" />
         </mxCell>
         <mxCell id="1746" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;fillColor=#e3c800;strokeColor=#660066;" parent="1" source="1749" target="T0vurwcoZlo6JB8hRkQS-1782" edge="1">
@@ -113,15 +113,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="699.278145695364" y="-25" as="targetPoint" />
             <mxPoint x="825.4701986754962" y="-128" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cFTijlWa25xeLsZB_8mZ-1764" value="Others" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#2F5B7C;fontFamily=Helvetica;fontSize=23;fontColor=#FFFFFF;align=center;fontStyle=0;spacing=5;arcSize=7;perimeterSpacing=2;horizontal=1;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="1017" y="-36" width="157" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="cFTijlWa25xeLsZB_8mZ-1765" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;fillColor=#e3c800;strokeColor=#660066;" parent="1" source="1749" target="cFTijlWa25xeLsZB_8mZ-1764" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="899.026490066225" y="-25" as="targetPoint" />
-            <mxPoint x="869.3543046357618" y="-128" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cFTijlWa25xeLsZB_8mZ-1766" value="Notations" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#2F5B7C;fontFamily=Helvetica;fontSize=23;fontColor=#FFFFFF;align=center;fontStyle=0;spacing=5;arcSize=7;perimeterSpacing=2;glass=0;" parent="1" vertex="1">
