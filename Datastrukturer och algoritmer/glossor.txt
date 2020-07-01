@@ -1,8 +1,18 @@
 Data structures - diffrent ways to catagorize data in memory.
 Graph - a collection of nodes/vertices and edges.
 trees - a collecton of nodes, with a root, depth, and height.
+  Binary search - 
+  Min-heap - 
+  Max-heap - 
 Algorithm - function that in a finite amount of steps goes from any state to an end state.
 Traversals - diffrent ways to 'pass through' the data structure.
+  Inorder - first visits the left node until there are none, then do the same for root and right nodes. (left, root, right)
+  Pre-order - first visits the root node until there are none, then do the same for left and right nodes. (root, left, right)
+  post-order - first visits the left node until there are none, then do the same for right and root nodes. (left, right, root)
+  post order - when the postman get's an order.
 Sorting algorithms - diffrent ways to sort information. depending on the language and the data itself, some sorting algorithms are more appropriate.
 Time complexity - functions describing how much more compute power, thus, more time, follows proportionally to the amount of elements as the grow bigger.
 Space complexity - the space needed for the algorithm to run.
+  Ω(Omega notation) = the time it takes for the algorithm to run in the most optimal senario.
+  Θ(Theta notation) = the median time between Ω(n) and O(n), occationally this is considered to be the average.
+  O(big-O notation) = the time it takes for the algorithm to run in the most optimal senario.
