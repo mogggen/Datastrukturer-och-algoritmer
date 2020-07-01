@@ -2,14 +2,17 @@ Divide and conquer - a strategy that divides a large problem into sub-problem, a
 
 Data structures - diffrent ways to catagorize data in memory.
 Graph - a collection of nodes/vertices and edges.
-  A Minimum Spanning Tree (MST) - 
+  A Minimum Spanning Tree (MST) - https://en.wikipedia.org/wiki/Minimum_spanning_tree
   Directed Acyclic Graphs (DAG) - a graph with one-way-edges(directed) and no cycles. Cycles meaning you could end up at a previous node in a given number of traversal.
-trees - a collecton of nodes, with a root, depth, width, and height.
-----tree concepts
-  root - the inital element of any tree.
-  leaf - a parent node missing children nodes.
-  depth - how many generations comes after this node.
-  height
+Binary trees - a collecton of nodes without cycles.
+----tree terminology
+  root - the inital node of any tree.
+  non-leaf/internal/non-terminal nodes - nodes with at least one child node.
+  leaf/external/terminal node - a parent node missing children nodes, therefore, childless.
+  depth/level - how many edges there are from root to this node.
+  height - longest path to a leaf node from this node is this nodes height.
+  subtree - a subset of the whole tree.
+  forrest - a collection of disjoint trees (can contain one, or null, trees).
 ----tree types
   Binary search - a tree genarated from a sorted list with n elements, such that the root is ⌊n/2⌋ element, the children are the ⌊n/2^(depth+1)⌋
   Minheap - a tree were all the children have an equal or greater value then their parents.
