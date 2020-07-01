@@ -1,9 +1,20 @@
+Divide and conquer - a strategy that divides a large problem into sub-problem, and solve for the sub-problem, respectivly.
+
 Data structures - diffrent ways to catagorize data in memory.
 Graph - a collection of nodes/vertices and edges.
-trees - a collecton of nodes, with a root, depth, and height.
-  Binary search - 
-  Min-heap - 
-  Max-heap - 
+  A Minimum Spanning Tree (MST) - 
+  Directed Acyclic Graphs (DAG) - a graph with one-way-edges(directed) and no cycles. Cycles meaning you could end up at a previous node in a given number of traversal.
+trees - a collecton of nodes, with a root, depth, width, and height.
+----tree concepts
+  root - the inital element of any tree.
+  leaf - a parent node missing children nodes.
+  depth - how many generations comes after this node.
+  height
+----tree types
+  Binary search - a tree genarated from a sorted list with n elements, such that the root is ⌊n/2⌋ element, the children are the ⌊n/2^(depth+1)⌋
+  Minheap - a tree were all the children have an equal or greater value then their parents.
+  Maxheap - a tree were all the parents have an equal or greater value then their children.
+  Heap deletion - removes root and swaps the empty slot with the highest right-most element. Then sorts the new tree
 Algorithm - function that in a finite amount of steps goes from any state to an end state.
 Traversals - diffrent ways to 'pass through' the data structure.
   Inorder - first visits the left node until there are none, then do the same for root and right nodes. (left, root, right)
