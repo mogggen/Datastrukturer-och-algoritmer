@@ -1,1 +1,8 @@
-
+Data structures - diffrent ways to catagorize data in memory.
+Graph - a collection of nodes/vertices and edges.
+trees - a collecton of nodes, with a root, depth, and height.
+Algorithm - function that in a finite amount of steps goes from any state to an end state.
+Traversals - diffrent ways to 'pass through' the data structure.
+Sorting algorithms - diffrent ways to sort information. depending on the language and the data itself, some sorting algorithms are more appropriate.
+Time complexity - functions describing how much more compute power, thus, more time, follows proportionally to the amount of elements as the grow bigger.
+Space complexity - the space needed for the algorithm to run.
