@@ -105,11 +105,14 @@ singelton element
 ----------------------------------------
 --------------- Graphs -----------------
 ----------------------------------------
-Directed Acyclic Graphs (DAG) - a graph with one-way-edges and no cycles. Meaning you could end up at a previous node in a given number of traversal, bigger than zero.
+Directed Acyclic Graphs (DAG) - a graph with one-way-edges and no cycles. Meaning you can't end up at a previous node in a given number of traversal.
+
+------------------------------------------------------------------------------------------------------------------------
+
 Dijkstra's algorithm - https://www.youtube.com/watch?v=pVfj6mxhdMw
 
-Description: Start with all the lengths, from start to finish, at infinite length.
-Move to neigbouring nodes, with shortest known distance, and compute the new distances and sort shortest through longest.
+Description: Start with all the lengths, from start to finish, at infinite length. And starting Node at zero.
+Move to neigbouring nodes, with shortest path, and compute the new distances from the new node, starting with the shortest, and sort shortest through longest.
 Continue until with the node that has the shortest distance the end vertices is reached.
 storing the vertices that the algrithm arrived from. In doing so gives the entire path.
 (see video)
@@ -136,14 +139,16 @@ topilogical sorting - A topilogical order/sorting can't contain cycles, so it ha
 ----------------------------------------
 tree traversals (inorder, pre-order, post-order) - https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 
-inorder - left, root, right
-pre-order - root left right
+inorder - left, parent, right
+pre-order - parent, left, right
 post-order - left, right, root
+
 as a recursive function-call:
 order(Node* first, Node* second, Node* third)
-if(first->getFirst())
-else if(second->getSecond())
-else if(third->getThird())
+if(first->getFirst()) return first->getFirst();
+else if(second->getSecond()) return second->getSecond();
+else if(third->getThird()) return third->getThird();
+return;
 
 binary search tree - a technique that splits the array into smaller halves of itself to find the a certain element
 
