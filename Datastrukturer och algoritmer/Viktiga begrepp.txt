@@ -111,8 +111,10 @@ Directed Acyclic Graphs (DAG) - a graph with one-way-edges and no cycles. Meanin
 
 Dijkstra's algorithm - https://www.youtube.com/watch?v=pVfj6mxhdMw
 
-Description: Start with all the lengths, at infinite length. And starting Node at zero.
-Move to unvisited neigbouring nodes, with shortest path(smallest total weight sum), and compute the new distances from the new node.
+Description:
+Start with all the lengths at infinite length. And starting Node at zero.
+
+Move to neigbouring nodes, with shortest path, and compute the new distances from the new node, starting with the shortest, and sort shortest through longest.
 Continue until with the node that has the shortest distance the end vertices is reached.
 storing the vertices that the algrithm arrived from. In doing so gives the entire path.
 (see video)
@@ -126,6 +128,13 @@ adjacency list - an array with all the nodes of the graph, were every element ha
 neighbour - a Node that can be directly visted from currently visited node via an edge.
 
 ------------------------------------------------------------------------------------------------------------------------
+terminology
+
+current working node - the node that the algorithm is working with at the moment.
+discovery time - the first time the node is visited.
+finishing time - the last time the node is visited.
+every node will be visited exactly 2 times during a search.
+
 topilogical sorting - A topilogical order/sorting can't contain cycles, so it has to be directed. https://en.wikipedia.org/wiki/Topological_sorting
 
 ----------------------------------------
@@ -144,7 +153,7 @@ else if(second->getSecond()) return second->getSecond();
 else if(third->getThird()) return third->getThird();
 return;
 
-binary search tree - a technique that splits the array into smaller halves of itself to find the a certain element
+binary search tree - a technique that splits the array into smaller halves of itself to find a certain element
 
 BFS & DFS https://www.youtube.com/watch?v=pcKY4hjDrxk
 
@@ -154,14 +163,14 @@ DFS: When a neighbouring node is visited it is added to the top of a stack to re
 traversed. When the newest addition the the stack has no unvisited neighbouring nodes it is poped from the stack
 and this is repeated until the stack is empty or a previous node with unvisted neighbours is found.
 
-trick: walking the left-most branch, counting leafs double, and backtracking will give the correct discovery and finishing time, for DFS
+trick: walking the left-most branch (in-order traversal), counting leafs double, and backtracking will give the correct discovery and finishing time, for DFS
 
 Discovery time = stack.push(Node*)
 Finishing time = stack.pop()
 
 ------------------------------------------------------------------------------------------------------------------------
 
-BFS: When the neigbouring node is visited it is added to the end of the queue to remember 
+BFS: When the neigbouring node is visited it is added to the end of the queue to remember what set of nodes are visited.
 
 discovery time - the first time the node is visited. queue.EnQueue(node*)
 finishing time - the last time the node is visited. queue.DeQueue()
