@@ -1,8 +1,8 @@
 WARNING: The instructions and steps found in the content may be, intentionally or not, bias.
 
-1. find all concepts and key-words that shows up in the exams.
+1. Find all concepts and key-words that shows up in the exams.
 2. Understand the questions, and describe them in details step-by-step.
-3. update the agendas and category for better mangement and organization.
+3. Update the category for better mangement and organization.
 
 ----------------------------------------
 ---------- Sorting algoritm ------------
