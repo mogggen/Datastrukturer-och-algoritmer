@@ -157,6 +157,10 @@ binary search tree - a technique that splits the array into smaller halves of it
 
 BFS & DFS https://www.youtube.com/watch?v=pcKY4hjDrxk
 
+Hashing technices: https://m.youtube.com/watch?v=mFY0J5W8Udk
+
+Open hashing/ chaning h(x), add a node on collision
+Closed hashing / linear probing: h(x, i)
 ------------------------------------------------------------------------------------------------------------------------
 
 DFS: When a neighbouring node is visited it is added to the top of a stack to remember the order that the search
