@@ -4,10 +4,27 @@ from random import shuffle
 A = [-1, 1, 2, 3, 44, 4, 5, 55, 6, -34, -44, 99, 52, 7, 8, 9]
 
 
-def F(A, l=1, r=len(A)-2):
+def F(A, l=1, r=len(A)-1):
     i = int( ceil( (l+r) / 2 ) )
-    if not A:
-        raise F"Not full list{A}"
+
+    for _ in A[1:-1]:
+        if _ == A[i]:
+            print(" i", end="")
+        if _ == A[l]:
+            print(" l", end="")
+        if _ == A[r]:
+            print(" r ", end="")
+        print("\t", end="")
+        
+        if _ > 0:
+            print("+"* _, end="")
+        if _ < 0:
+            print("-"* abs(_), end="")
+        
+        print()
+
+    input()
+    
     if l == r:
         return A[i]
 
@@ -25,15 +42,4 @@ for j in range(50):
     shuffle(A)
 
     solution = F( [inf]+A+[inf] )
-    print( solution )
-
-    for _ in A:
-            
-        if _ > 0:
-            print("+"* _, end="")
-        if _ < 0:
-            print("-"* abs(_), end="")
-        if _ == solution:
-            print(" < ")
-        else:
-            print()
+    print( "solved" )
