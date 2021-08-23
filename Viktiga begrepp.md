@@ -68,7 +68,7 @@ Radix Sort
 https://www.youtube.com/watch?v=nu4gDuFabIM
 Ω(n)
 Θ(?)
-O(n) (also number-of-digits dependant)
+O(n + e) e = the base to sort in
 
 heapSort
 https://www.youtube.com/watch?v=MtQL_ll5KhQ
@@ -155,7 +155,12 @@ return;
 
 binary search tree - a technique that splits the array into smaller halves of itself to find a certain element
 
+
 BFS & DFS https://www.youtube.com/watch?v=pcKY4hjDrxk
+
+----------------------------------------
+--------------- Hashes -----------------
+----------------------------------------
 
 Hashing technices: https://m.youtube.com/watch?v=mFY0J5W8Udk
 
