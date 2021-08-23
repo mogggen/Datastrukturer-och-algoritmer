@@ -10,7 +10,7 @@ WARNING: The instructions and steps found in the content may be, intentionally o
 
 Ω(Omega notation) = best case
 Θ(Theta notation) = average case
-O(big-O notation) = worst case (this is ordo, in mathematics O(x), when x -> 0, but O(n), n -> inf in computer graphics)
+O(big-O notation) = worst case (this is ordo, O(n), n -> inf in Computer Science)
 
 ------------------------------------------------------------------------------------------------------------------------
 
